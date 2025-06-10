@@ -1,0 +1,84 @@
+# This file is an output of a discrete event simulation.
+# It contains spanning tree information to be parsed while
+# visualizing the spanning tree using the Protocols->STP menu.
+# Legend: node name, VID, VLAN/tree name, port/node type, link name.
+Logical Network.Computer_science.switch_lab_1,0,Common ST,root,none
+Logical Network.Computer_science.switch_lab_1,100,100v,root,none
+Logical Network.Computer_science.switch_lab_1,200,200v,root,none
+Logical Network.Computer_science.switch_lab_1,0,Common ST,designated_port,Logical Network.Computer_science.switch_lab_1 <-> pc2_lab1
+Logical Network.Computer_science.switch_lab_1,100,100v,designated_port,Logical Network.Computer_science.switch_lab_1 <-> pc2_lab1
+Logical Network.Computer_science.switch_lab_1,0,Common ST,designated_port,Logical Network.Computer_science.switch_lab_1 <-> pc1_lab1
+Logical Network.Computer_science.switch_lab_1,100,100v,designated_port,Logical Network.Computer_science.switch_lab_1 <-> pc1_lab1
+Logical Network.Computer_science.switch_lab_1,0,Common ST,designated_port,Logical Network.Computer_science.switch_lab_1 <-> pc3_lab1
+Logical Network.Computer_science.switch_lab_1,200,200v,designated_port,Logical Network.Computer_science.switch_lab_1 <-> pc3_lab1
+Logical Network.Computer_science.switch_lab_1,0,Common ST,designated_port,Logical Network.Computer_science.switch_lab_1 <-> pc4_lab1
+Logical Network.Computer_science.switch_lab_1,200,200v,designated_port,Logical Network.Computer_science.switch_lab_1 <-> pc4_lab1
+Logical Network.Computer_science.switch_lab_1,0,Common ST,designated_port,Logical Network.Computer_science.switch_lab_1 <-> switch_lab_2
+Logical Network.Computer_science.switch_lab_1,100,100v,designated_port,Logical Network.Computer_science.switch_lab_1 <-> switch_lab_2
+Logical Network.Computer_science.switch_lab_1,200,200v,designated_port,Logical Network.Computer_science.switch_lab_1 <-> switch_lab_2
+Logical Network.Computer_science.switch_lab_2,0,Common ST,root,none
+Logical Network.Computer_science.switch_lab_2,100,100v,root,none
+Logical Network.Computer_science.switch_lab_2,200,200v,root,none
+Logical Network.Computer_science.switch_lab_2,0,Common ST,designated_port,Logical Network.Computer_science.switch_lab_2 <-> pc1_lab2
+Logical Network.Computer_science.switch_lab_2,100,100v,designated_port,Logical Network.Computer_science.switch_lab_2 <-> pc1_lab2
+Logical Network.Computer_science.switch_lab_2,0,Common ST,designated_port,Logical Network.Computer_science.pc2_lab2 <-> switch_lab_2
+Logical Network.Computer_science.switch_lab_2,100,100v,designated_port,Logical Network.Computer_science.pc2_lab2 <-> switch_lab_2
+Logical Network.Computer_science.switch_lab_2,0,Common ST,designated_port,Logical Network.Computer_science.pc4_lab2 <-> switch_lab_2
+Logical Network.Computer_science.switch_lab_2,200,200v,designated_port,Logical Network.Computer_science.pc4_lab2 <-> switch_lab_2
+Logical Network.Computer_science.switch_lab_2,0,Common ST,designated_port,Logical Network.Computer_science.pc3_lab2 <-> switch_lab_2
+Logical Network.Computer_science.switch_lab_2,200,200v,designated_port,Logical Network.Computer_science.pc3_lab2 <-> switch_lab_2
+Logical Network.Computer_science.switch_lab_2,0,Common ST,designated_port,Logical Network.Computer_science.switch_lab_1 <-> switch_lab_2
+Logical Network.Computer_science.switch_lab_2,100,100v,designated_port,Logical Network.Computer_science.switch_lab_1 <-> switch_lab_2
+Logical Network.Computer_science.switch_lab_2,200,200v,designated_port,Logical Network.Computer_science.switch_lab_1 <-> switch_lab_2
+Logical Network.Computer_science.switch_lab_2,0,Common ST,designated_port,Logical Network.Computer_science.switch_lab_2 <-> switch_flat_1
+Logical Network.Computer_science.switch_lab_2,100,100v,designated_port,Logical Network.Computer_science.switch_lab_2 <-> switch_flat_1
+Logical Network.Computer_science.switch_lab_2,200,200v,designated_port,Logical Network.Computer_science.switch_lab_2 <-> switch_flat_1
+Logical Network.Computer_science.switch_lab_3,0,Common ST,root,none
+Logical Network.Computer_science.switch_lab_3,300,300v,root,none
+Logical Network.Computer_science.switch_lab_3,400,400v,root,none
+Logical Network.Computer_science.switch_lab_3,0,Common ST,designated_port,Logical Network.Computer_science.switch_lab_3 <-> pc2_lab3
+Logical Network.Computer_science.switch_lab_3,300,300v,designated_port,Logical Network.Computer_science.switch_lab_3 <-> pc2_lab3
+Logical Network.Computer_science.switch_lab_3,0,Common ST,designated_port,Logical Network.Computer_science.pc1_lab3 <-> switch_lab_3
+Logical Network.Computer_science.switch_lab_3,300,300v,designated_port,Logical Network.Computer_science.pc1_lab3 <-> switch_lab_3
+Logical Network.Computer_science.switch_lab_3,0,Common ST,designated_port,Logical Network.Computer_science.pc3_lab3 <-> switch_lab_3
+Logical Network.Computer_science.switch_lab_3,400,400v,designated_port,Logical Network.Computer_science.pc3_lab3 <-> switch_lab_3
+Logical Network.Computer_science.switch_lab_3,0,Common ST,designated_port,Logical Network.Computer_science.pc4_lab3 <-> switch_lab_3
+Logical Network.Computer_science.switch_lab_3,400,400v,designated_port,Logical Network.Computer_science.pc4_lab3 <-> switch_lab_3
+Logical Network.Computer_science.switch_lab_3,0,Common ST,designated_port,Logical Network.Computer_science.switch_lab_3 <-> switch_lab_4
+Logical Network.Computer_science.switch_lab_3,300,300v,designated_port,Logical Network.Computer_science.switch_lab_3 <-> switch_lab_4
+Logical Network.Computer_science.switch_lab_3,400,400v,designated_port,Logical Network.Computer_science.switch_lab_3 <-> switch_lab_4
+Logical Network.Computer_science.switch_lab_4,0,Common ST,root,none
+Logical Network.Computer_science.switch_lab_4,300,300v,root,none
+Logical Network.Computer_science.switch_lab_4,400,400v,root,none
+Logical Network.Computer_science.switch_lab_4,0,Common ST,designated_port,Logical Network.Computer_science.pc3_lab4 <-> switch_lab_4
+Logical Network.Computer_science.switch_lab_4,400,400v,designated_port,Logical Network.Computer_science.pc3_lab4 <-> switch_lab_4
+Logical Network.Computer_science.switch_lab_4,0,Common ST,designated_port,Logical Network.Computer_science.pc1_lab4 <-> switch_lab_4
+Logical Network.Computer_science.switch_lab_4,300,300v,designated_port,Logical Network.Computer_science.pc1_lab4 <-> switch_lab_4
+Logical Network.Computer_science.switch_lab_4,0,Common ST,designated_port,Logical Network.Computer_science.pc2_lab4 <-> switch_lab_4
+Logical Network.Computer_science.switch_lab_4,300,300v,designated_port,Logical Network.Computer_science.pc2_lab4 <-> switch_lab_4
+Logical Network.Computer_science.switch_lab_4,0,Common ST,designated_port,Logical Network.Computer_science.pc4_lab4 <-> switch_lab_4
+Logical Network.Computer_science.switch_lab_4,400,400v,designated_port,Logical Network.Computer_science.pc4_lab4 <-> switch_lab_4
+Logical Network.Computer_science.switch_lab_4,0,Common ST,designated_port,Logical Network.Computer_science.switch_lab_3 <-> switch_lab_4
+Logical Network.Computer_science.switch_lab_4,300,300v,designated_port,Logical Network.Computer_science.switch_lab_3 <-> switch_lab_4
+Logical Network.Computer_science.switch_lab_4,400,400v,designated_port,Logical Network.Computer_science.switch_lab_3 <-> switch_lab_4
+Logical Network.Computer_science.switch_lab_4,0,Common ST,designated_port,Logical Network.Computer_science.switch_lab_4 <-> switch_flat_2
+Logical Network.Computer_science.switch_lab_4,300,300v,designated_port,Logical Network.Computer_science.switch_lab_4 <-> switch_flat_2
+Logical Network.Computer_science.switch_lab_4,400,400v,designated_port,Logical Network.Computer_science.switch_lab_4 <-> switch_flat_2
+Logical Network.Computer_science.switch_flat_1,0,Common ST,root,none
+Logical Network.Computer_science.switch_flat_1,100,100v,root,none
+Logical Network.Computer_science.switch_flat_1,200,200v,root,none
+Logical Network.Computer_science.switch_flat_1,0,Common ST,designated_port,Logical Network.Computer_science.switch_lab_2 <-> switch_flat_1
+Logical Network.Computer_science.switch_flat_1,100,100v,designated_port,Logical Network.Computer_science.switch_lab_2 <-> switch_flat_1
+Logical Network.Computer_science.switch_flat_1,200,200v,designated_port,Logical Network.Computer_science.switch_lab_2 <-> switch_flat_1
+Logical Network.Computer_science.switch_flat_1,0,Common ST,designated_port,Logical Network.Computer_science.switch_flat_1 <-> switch_computer_science_collage
+Logical Network.Computer_science.switch_flat_1,100,100v,designated_port,Logical Network.Computer_science.switch_flat_1 <-> switch_computer_science_collage
+Logical Network.Computer_science.switch_flat_1,200,200v,designated_port,Logical Network.Computer_science.switch_flat_1 <-> switch_computer_science_collage
+Logical Network.Computer_science.switch_flat_2,0,Common ST,root,none
+Logical Network.Computer_science.switch_flat_2,300,300v,root,none
+Logical Network.Computer_science.switch_flat_2,400,400v,root,none
+Logical Network.Computer_science.switch_flat_2,0,Common ST,designated_port,Logical Network.Computer_science.switch_lab_4 <-> switch_flat_2
+Logical Network.Computer_science.switch_flat_2,300,300v,designated_port,Logical Network.Computer_science.switch_lab_4 <-> switch_flat_2
+Logical Network.Computer_science.switch_flat_2,400,400v,designated_port,Logical Network.Computer_science.switch_lab_4 <-> switch_flat_2
+Logical Network.Computer_science.switch_flat_2,0,Common ST,designated_port,Logical Network.Computer_science.switch_flat_2 <-> switch_computer_science_collage
+Logical Network.Computer_science.switch_flat_2,300,300v,designated_port,Logical Network.Computer_science.switch_flat_2 <-> switch_computer_science_collage
+Logical Network.Computer_science.switch_flat_2,400,400v,designated_port,Logical Network.Computer_science.switch_flat_2 <-> switch_computer_science_collage
